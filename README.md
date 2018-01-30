@@ -33,7 +33,9 @@ projects but the same roles are used, separate inventory files are needed
 Main playbooks there are:
 
 * letsencrypt.yml - Issue a LetsEncrypt certificate for given host, using
-  either official certbot or dehydrated script. Tested on Ubuntu 16.04 LTS.
+  either official certbot or dehydrated script. Tested on Ubuntu 16.04 LTS. In
+  case of using dehydrated script, AWS Route 53 with dns-01 challenge
+  supported.
 
 
 To apply any of there all you need is just
