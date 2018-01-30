@@ -1,0 +1,6 @@
+---
+- include: certbot.yml
+  when: acme_tool == 'certbot'
+
+- include: dehydrated.yml
+  when: acme_tool == 'dehydrated'

@@ -1,0 +1,8 @@
+---
+acme_tool: certbot
+dns_holder: bind
+aws_access_key_id: False
+aws_secret_access_key: False
+dh_challenge: "dns-01"
+dh_basedir: /etc/ssl_certs
+le_email: admin@localhost.com

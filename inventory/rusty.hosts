@@ -1,0 +1,4 @@
+rusty.host ansible_become=true
+
+[letsencrypt]
+rusty.host
